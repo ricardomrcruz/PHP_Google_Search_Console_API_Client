@@ -46,7 +46,7 @@ composer update
 ```
 
 Remember, it's important to commit your `composer.lock` file to your version control system to ensure that all team members and deployment environments use the same dependency versions.
-```
+
 
 ### Configuring Google Client
 
@@ -73,6 +73,10 @@ This script is developed within a PrestaShop server environment but is designed 
 ### Additional Information
 
 Feel free to include any additional information or sections that might be helpful, such as troubleshooting tips, contribution guidelines, or license information.
+
+### doccumentation an client by strasbourgwebsolutions.fr || open source 4 life
+
+
 
 
 
