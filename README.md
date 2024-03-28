@@ -1,7 +1,10 @@
 
-# PHP Google Search Console API Client
+# PHP Google Search Console API Client & XML Data Parser
 
-Effortlessly integrate Google services with your PHP-based web environment using this script. Tailored for e-commerce and CMS platforms like PrestaShop and WordPress, it's flexible enough for any PHP setting. Seamlessly connect to Google APIs for enhanced functionality and data exchange.
+Elevate your PHP applications by integrating Google services effortlessly with this script. Designed to enable seamless connectivity with Google APIs, it offers comprehensive data exchange and specializes in XML data parsing. Its versatile capabilities make it an essential tool for developers seeking to enrich their web applications with advanced functionality.
+
+This library is built for PHP environments, making it perfect for use with Laravel, Symfony, WordPress, PrestaShop and others. It's designed to easily fit into these ecosystems, allowing developers to tap into Google APIs without hassle. Whether you're enhancing a blog, an e-commerce site, or a custom application, this tool simplifies integration across various PHP platforms, bringing powerful Google functionality right into your projects.
+
 
 ## Getting Started
 
@@ -9,7 +12,7 @@ Follow these steps to set up the script in your PHP environment, including cloni
 
 ### Prerequisites
 
-Ensure PHP and Composer are installed on your server. These are vital for dependency management and script execution.
+Ensure PHP and Composer are installed on your server and machine. These are vital for dependency management and script execution.
 
 - PHP: [Installation Guide](https://www.php.net/manual/en/install.php)
 - Composer: [Getting Started Guide](https://getcomposer.org/doc/00-intro.md)
@@ -58,10 +61,6 @@ Set up your Google Client:
 ### API Scopes
 
 Include the correct scopes in your authentication flow as per the [Google Identity Platform documentation](https://developers.google.com/identity/protocols/oauth2/scopes).
-
-### Compatibility
-
-Though developed for a PrestaShop server, this script supports various PHP environments, including WordPress and other CMS platforms.
 
 ### Additional Information
 

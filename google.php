@@ -119,5 +119,5 @@ if ($client->getAccessToken()) {
     $authUrl = $client->createAuthUrl();
     header('Location: ' . filter_var($authUrl, FILTER_SANITIZE_URL));
     exit();
-    echo "Un erreur est survenue. ";
+    echo "Error. Confirm Google OAuth Identity.";
 }
