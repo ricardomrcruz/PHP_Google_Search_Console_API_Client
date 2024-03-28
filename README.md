@@ -21,12 +21,17 @@ To get started, clone this repository to your local machine or server:
 git clone https://your-repository-url-here
 cd your-repository-directory
 
+````
+
 ### Installing Dependencies
 
 After cloning the repository, you need to install the required PHP dependencies, including the Google Client Library. Run the following command in the root directory of your project:
 
 ```bash
 composer require google/apiclient:^2.0
+
+
+````
 
 ### Configuring Google Client
 
@@ -54,4 +59,7 @@ This script is developed within a PrestaShop server environment but is designed 
 
 Feel free to include any additional information or sections that might be helpful, such as troubleshooting tips, contribution guidelines, or license information.
 
-````
+
+
+
+
