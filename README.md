@@ -1,4 +1,4 @@
-# Project Name
+# PHP Google Search Console API Client
 
 This script is designed to integrate Google services into a PHP-based web environment. It provides a seamless connection to Google APIs, facilitating data exchange and enhancing functionality. This solution is especially crafted for e-commerce and content management systems like PrestaShop and WordPress, but it's versatile enough to be utilized in any PHP environment.
 
@@ -30,8 +30,23 @@ After cloning the repository, you need to install the required PHP dependencies,
 ```bash
 composer require google/apiclient:^2.0
 
-
 ````
+If you are using an existing `composer.lock` file to install specific versions of the dependencies that have been tested with your project (like the one this repo has) , you should run:
+
+```bash
+composer install
+```
+
+This command will install the dependencies as specified in the `composer.lock` file, ensuring consistency across all environments.
+
+If at any point you need to update your dependencies to their latest versions (and update the `composer.lock` file accordingly), you can run:
+
+```bash
+composer update
+```
+
+Remember, it's important to commit your `composer.lock` file to your version control system to ensure that all team members and deployment environments use the same dependency versions.
+```
 
 ### Configuring Google Client
 
@@ -58,6 +73,8 @@ This script is developed within a PrestaShop server environment but is designed 
 ### Additional Information
 
 Feel free to include any additional information or sections that might be helpful, such as troubleshooting tips, contribution guidelines, or license information.
+
+
 
 
 
