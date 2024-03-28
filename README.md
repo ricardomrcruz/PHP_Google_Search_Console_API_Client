@@ -1,6 +1,4 @@
-The provided README is well-structured and informative, but I'll offer some optimizations for clarity, professional tone, and brevity. Here's a revised version:
 
-```markdown
 # PHP Google Search Console API Client
 
 Effortlessly integrate Google services with your PHP-based web environment using this script. Tailored for e-commerce and CMS platforms like PrestaShop and WordPress, it's flexible enough for any PHP setting. Seamlessly connect to Google APIs for enhanced functionality and data exchange.
