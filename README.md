@@ -59,6 +59,10 @@ Set up your Google Client:
 3. Under "Credentials", create your project's credentials (e.g., OAuth 2.0 Client IDs).
 4. Enable necessary APIs via the "Library" page. Specifically, add the Google Search Console API.
 5. Configure your OAuth 2.0 Client ID credentials with appropriate domains and redirect URLs.
+6. Download the client ID JSON file and upload it to your project folder.
+7. Delete the refresh access token that comes with the repository. Enter your query URL. Confirm your Google identity and watch your new refresh token get added to the project automatically.
+
+These additional steps ensure that your Google Client is fully configured and ready to use within your project. They also guide you through the process of handling authentication and obtaining the necessary credentials for accessing Google APIs.
 
 ### API Scopes
 

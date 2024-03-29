@@ -14,11 +14,11 @@ require './vendor/autoload.php';
 // scope https://www.googleapis.com/auth/webmasters.readonly
 // scope https://www.googleapis.com/auth/webmasters
 
-session_start(); // Session Opening (essential for tokem verification)
+session_start(); // Session Opening (essential for token verification)
 
 //Googgle Client
 $client = new Google_Client();
-$client->setApplicationName('Google Search Console API PHP');
+$client->setApplicationName('PHP Google Search Console API Client');
 $client->setScopes([
     'https://www.googleapis.com/auth/webmasters.readonly',
     'https://www.googleapis.com/auth/webmasters'
@@ -55,7 +55,8 @@ if (!empty($_SESSION['access_token'])) {
     }
 }
 
-//If doule security measures are needed, use a slug with a security code and set the url a txt file inside the projects folder.  This is not being used in this client model. 
+//If double security measures are needed, use a slug with a security code and set the url a txt file inside the projects folder.  
+//This is not being used in this client model. 
 
 if (isset($_GET['code'])) {
     $token = $client->fetchAccessTokenWithAuthCode($_GET['code']);
@@ -72,12 +73,13 @@ if (isset($_GET['code'])) {
     }
 }
 
-// Access token present = successful authentification
+// If access token present = successful authentification
 if ($client->getAccessToken()) {
 
     // echo "Gogggle Search Console Keyword Analysis";
 
     //Access Search Console by client API
+
     $service = new Google_Service_SearchConsole($client); //This class might give an error, if php and composers versions dont match with your machine ones. 
     
     //If the machine has  older versions of php and composer then DON'T update composer in the project terminal. Always verify your server versions.  
