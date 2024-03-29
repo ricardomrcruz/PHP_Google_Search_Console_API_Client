@@ -1,9 +1,12 @@
+![googleclient_api_php.png](googleclient_api_php.png)
 
 # PHP Google Search Console API Client & XML Data Parser
 
 Elevate your PHP applications by effortlessly integrating Google services with this client. Designed for seamless connectivity with Google APIs, it facilitates comprehensive data exchange and features an XML data parser.
 
 The client is mainly built for PHP environments, making it ideal for use with Laravel, Symfony, WordPress, PrestaShop, and plenty of others heavy php framework prjects. It's crafted to seamlessly integrate into these ecosystems, enabling developers to access Google APIs with ease. Adjust accordingly to your needs. 
+
+In this particular client, we use existing Google Search Console data in order to obtain the number of clicks, position rankings, click-through rates, and the most impactful keywords for our websites.
 
 ## Getting Started
 
