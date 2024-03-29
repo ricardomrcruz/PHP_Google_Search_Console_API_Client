@@ -24,8 +24,8 @@ Ensure PHP and Composer are installed on your server and machine. These are vita
 Clone the repository to your machine or server:
 
 ```bash
-git clone https://your-repository-url-here
-cd your-repository-directory
+git clone https://github.com/ricardomrcruz/PHP_Google_API_Client.git
+cd PHP_Google_API_Client
 ```
 
 ### Installing Dependencies
