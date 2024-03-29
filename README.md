@@ -2,7 +2,7 @@
 
 # PHP Google Search Console API Client & XML Data Parser
 
-Elevate your PHP applications by effortlessly integrating Google services with this client. Designed for effortless integration with Google API services, this PHP-based Google Search Console API Client and XML data parser simplifies the incorporation of Google web services into applications. 
+Elevate your PHP applications by effortlessly integrating Google services with this client. Designed for easy integration with Google API services, this PHP-based Google Search Console API Client and XML data parser simplifies the incorporation of Google web services into applications. 
 
 With seamless connectivity and comprehensive data exchange capabilities, it facilitates parsing SEO data from Google Search Console into XML format, enabling straightforward cross-server access. 
 
