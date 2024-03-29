@@ -76,6 +76,6 @@ For troubleshooting, contribution guidelines, or license information, feel free 
 
 #### Courtesy of [Strasbourg Web Solutions](https://strasbourgwebsolutions.fr) | Open Source 4 Life
 
-## Acknowledgments
+#### Acknowledgments: Special thanks to Sebastien Froissart for his valuable contributions to this project.
 
-Special thanks to Sebastien Froissart for his valuable contributions to this project.
+
