@@ -75,5 +75,3 @@ For troubleshooting, contribution guidelines, or license information, feel free 
 ---
 
 #### Developed by Ricardo Martinho 2024. Courtesy of [Strasbourg Web Solutions](https://strasbourgwebsolutions.fr) | Open Source 4 Life
-
-#### Acknowledgments: Special thanks to Sebastien Froissart for his valuable contributions to this project.
